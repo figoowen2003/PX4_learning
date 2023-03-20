@@ -15,7 +15,7 @@ deb-src http://ppa.launchpad.net/ubuntu-toolchain-r/test/ubuntu bionic main
 步骤二：
 添加ppa证书，ID复制网页中
 sudo apt-key adv --keyserver keyserver.ubuntu.com --recv ID 证书添加完毕后，执行更新。
-[image 2](https://github.com/figoowen2003/PX4_learning/blob/main/image/20210712180727534.png)
+![image 2](https://github.com/figoowen2003/PX4_learning/blob/main/image/20210712180727534.png)
 
 步骤三：
 sudo apt-get update && sudo apt-get upgrade 更新完成后即可安装gcc-9，g++-9。
