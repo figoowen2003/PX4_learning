@@ -1,0 +1,3 @@
+1. fatal error: sys/cdefs.h: No such file or directory
+    64为Ubuntu如果执行X86平台下的32位编译，gcc -m32 -o x x.c会报错，解决办法为：
+    执行sudo apt-get install libc6-dev-i386
