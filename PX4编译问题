@@ -1,3 +1,7 @@
 1. fatal error: sys/cdefs.h: No such file or directory
     64为Ubuntu如果执行X86平台下的32位编译，gcc -m32 -o x x.c会报错，解决办法为：
     执行sudo apt-get install libc6-dev-i386
+2. fatal error: bits/c++config.h: No such file or directory
+    sudo apt-get install g++-multilib
+3. import em找不到模块
+    在python3下，sudo apt install -y python3-empy
