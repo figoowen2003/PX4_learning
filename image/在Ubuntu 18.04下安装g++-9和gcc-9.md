@@ -18,4 +18,9 @@ sudo apt-key adv --keyserver keyserver.ubuntu.com --recv ID 证书添加完毕�
 ![image 2](https://github.com/figoowen2003/PX4_learning/blob/main/image/20210712180727534.png)
 
 步骤三：
-sudo apt-get update && sudo apt-get upgrade 更新完成后即可安装gcc-9，g++-9。
+sudo apt-get update && sudo apt-get upgrade 更新完成后即可安装gcc-9，g++-9
+
+步骤四：（如果需要交叉编译，需要安装以下两个包）
+sudo apt-get install g++-9-multilib gcc-9-multilib -y
+
+注：网络原因可能导致install失败，需要反复尝试，直到成功为止
